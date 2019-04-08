@@ -1,4 +1,6 @@
 # align two images via Enhanced Correlation Coefficient (ECC) Maximization
+# Credit :
+# https://www.learnopencv.com/image-alignment-ecc-in-opencv-c-python/
 import cv2
 import numpy as np
 import imutils

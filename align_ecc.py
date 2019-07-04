@@ -75,7 +75,7 @@ hemo_drawn = cv2.cvtColor(hemo_drawn, cv2.COLOR_BGR2GRAY)
 
 # hemo_actual = imutils.resize(cv2.imread("Z:/hemocytometer-cropped-cleaned.jpg"), width=resize)
 
-hemo_actual =  cv2.imread("Z:/20190315/ImageJ_Simple_Stitch/15umC-2.tif")
+hemo_actual = cv2.imread("Z:/20190315/ImageJ_Simple_Stitch/15umC-2.tif")
 hemo_actual = cv2.cvtColor(hemo_actual, cv2.COLOR_BGR2GRAY)
 hemo_actual = cv2.threshold(hemo_actual, np.mean(hemo_actual) + 30, 255, cv2.THRESH_BINARY)[1]
 hemo_actual = imutils.resize(hemo_actual, width=resize)

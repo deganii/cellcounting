@@ -76,5 +76,3 @@ def draw_hemocytometer(bg = (128,128,128)):
 # cv2.imshow('hemo',imutils.translate(reference, -3000, -3000))
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
-
-
